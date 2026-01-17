@@ -1,164 +1,144 @@
-# 📌 Customer Churn Prediction using Artificial Neural Network (ANN)
+Got it 👍
+Below is the **SINGLE, FULL, COPY-PASTE READY `README.md`**, with **Author section included**.
+I **did NOT invent** your email or links — I used **clear placeholders** so you can safely replace them.
 
-## 📖 Project Overview
-Customer churn is one of the major challenges faced by banks and financial institutions.  
-This project predicts whether a customer is **likely to leave the bank (churn)** or **stay loyal** using an **Artificial Neural Network (ANN)**.
-
-The project is divided into **three major parts**:
-
-1. ANN Model Training  
-2. Customer Churn Prediction  
-3. Model Deployment using Streamlit  
-
-This solution helps banks take **proactive decisions** to retain customers by identifying high-risk churn cases.
+Just paste this as-is into `README.md` 👇
 
 ---
 
-## 🧠 Problem Statement
-Build a machine learning model that predicts customer churn based on demographic and financial details such as:
+```markdown
+# 📊 Customer Churn Prediction App (ANN + Streamlit)
 
-- Credit Score  
-- Age  
-- Balance  
-- Tenure  
-- Number of Products  
-- Active Membership  
-- Estimated Salary  
+A machine learning web application that predicts whether a customer is likely to churn using an Artificial Neural Network (ANN). The application is built with Streamlit, TensorFlow, and models hosted on Hugging Face Hub.
 
----
+## 🚀 Live Demo
+https://customer-churn-deploy-7ztmntzrzfnsscltzscftk.streamlit.app/
 
-## 🏗️ Project Structure
-
-```
-Customer-Churn-ANN/
-│
-├── data/
-│   └── churn_dataset.csv
-│
-├── model/
-│   ├── ann_churn_model.h5
-│   ├── scaler.pkl
-│   ├── label_encoder_gender.pkl
-│   └── onehot_encoder_geo.pkl
-│
-├── src/
-│   ├── train_ann_model.py
-│   └── prediction.py
-│
-├── app.py
-├── requirements.txt
-└── README.md
-```
-
----
-
-## ⚙️ Part 1: ANN Model Training
-Model training and preprocessing are handled in **`train_ann_model.py`**, which includes:
-
-- Data loading from `churn_dataset.csv`  
-- Label Encoding for Gender  
-- One-Hot Encoding for Geography  
-- Feature scaling using `StandardScaler`  
-- Splitting data into training and testing sets  
-- Building and training the ANN  
-- Saving:
-  - Trained model → `ann_churn_model.h5`
-  - Scaler → `scaler.pkl`
-  - Encoders → `label_encoder_gender.pkl`, `onehot_encoder_geo.pkl`
-
----
-
-## 🔮 Part 2: Customer Churn Prediction
-Prediction logic is implemented in **`prediction.py`**, which:
-
-- Loads the trained ANN model  
-- Loads the saved encoders and scaler  
-- Applies the same preprocessing to new customer input  
-- Predicts whether the customer will:
-  - **Stay Loyal**
-  - **Exit (Churn)**
-
----
-
-## 🚀 Part 3: Model Deployment using Streamlit
-The web application is built using **Streamlit** in **`app.py`**, which:
-
-- Provides a user-friendly UI  
-- Takes customer details as input (sliders & dropdowns)  
-- Sends the input to `prediction.py`  
-- Displays churn prediction in real-time  
-
----
+## 🧠 Model Overview
+- Algorithm: Artificial Neural Network (ANN)
+- Framework: TensorFlow / Keras
+- Problem Type: Binary Classification
+- Output: Churn Probability (0–1)
 
 ## 🛠️ Tech Stack
-- **Programming Language:** Python  
-- **Libraries & Frameworks:**
-  - NumPy  
-  - Pandas  
-  - Scikit-learn  
-  - TensorFlow / Keras  
-- **Model Type:** Artificial Neural Network (ANN)  
-- **Web Framework:** Streamlit  
-- **IDE & Tools:** VS Code, Jupyter Notebook  
-- **Version Control:** Git & GitHub  
+- Python
+- Streamlit
+- TensorFlow / Keras
+- Scikit-learn
+- Hugging Face Hub
+- Pandas
+- NumPy
 
----
-
-## 📊 Dataset
-- **Bank Customer Churn Dataset** (`churn_dataset.csv`)  
-- Contains customer demographic and financial information  
-- Target variable:
-  - `1` → Customer Exited  
-  - `0` → Customer Stayed  
-
----
-
-## ▶️ How to Run the Project
-
-### Step 1: Clone the Repository
-```bash
-git clone https://github.com/satya2337/Customer-Churn-Prediction-App.git
+## 📁 Project Structure
 ```
 
-### Step 2: Install Dependencies
+├── app.py
+├── requirements.txt
+├── README.md
+
+````
+
+Model and preprocessing files are downloaded dynamically from Hugging Face Hub.
+
+## 📦 Hugging Face Model Repository
+satya-anand-ml/churn-ann-model
+
+Files used:
+- ann_churn_model.h5
+- onehot_encoder_geo.pkl
+- label_encoder_gender.pkl
+- scaler.pkl
+
+## 🖥️ Application Features
+- Modern gradient-based UI
+- Real-time churn probability prediction
+- Automatic encoding and scaling
+- Clear success and warning messages
+
+## 🧾 Input Features
+- Geography
+- Gender
+- Age
+- Credit Score
+- Balance
+- Tenure
+- Number of Products
+- Credit Card Status
+- Active Member Status
+- Estimated Salary
+
+## 📊 Output
+- Churn Probability (0–1)
+- Prediction Result:
+  - Customer is not likely to churn
+  - Customer is likely to churn
+
+## ⚙️ Installation & Run Locally
+
+Clone the repository:
+```bash
+git clone https://github.com/your-username/customer-churn-prediction.git
+cd customer-churn-prediction
+````
+
+Create virtual environment (optional):
+
+```bash
+python -m venv venv
+source venv/bin/activate
+```
+
+Install dependencies:
+
 ```bash
 pip install -r requirements.txt
 ```
 
-### Step 3: (Optional) Train the Model
-If you want to retrain the ANN model:
-```bash
-python train_ann_model.py
-```
+Run the app:
 
-This will generate:
-- `ann_churn_model.h5`
-- `scaler.pkl`
-- `label_encoder_gender.pkl`
-- `onehot_encoder_geo.pkl`
-
-### Step 4: Run the Streamlit App
 ```bash
 streamlit run app.py
 ```
 
----
+## 📄 requirements.txt
 
-## 📌 Future Enhancements
-- Hyperparameter tuning for better accuracy  
-- Display model accuracy and metrics in the UI  
-- Deploy the app on cloud platforms (Heroku / AWS / Streamlit Cloud)  
-- Compare ANN with other ML models  
+```txt
+streamlit
+tensorflow
+pandas
+numpy
+scikit-learn
+huggingface-hub
+```
 
----
+## 🧠 Prediction Logic
 
-## 👤 Author
-**Satya Anand**  
-📧 Email: [satyaanand442@gmail.com](mailto:satyaanand442@gmail.com)  
-🔗 LinkedIn: https://www.linkedin.com/in/satya-anand-25122003k  
-🐙 GitHub: https://github.com/satya2337  
+```python
+if churn_probability > 0.5:
+    Customer is likely to churn
+else:
+    Customer is not likely to churn
+```
 
----
+## 🚀 Future Enhancements
 
-## ⭐ Acknowledgement
-Thanks to open-source datasets and libraries that made this project possible.
+* Model explainability (SHAP / LIME)
+* Improved UI and animations
+* Cloud deployment
+* User authentication and prediction history
+
+## 👨‍💻 Author
+
+**Satya Anand**
+
+
+📧 Email: [your-email@gmail.com](mailto:your-email@gmail.com)
+🔗 LinkedIn: [https://www.linkedin.com/in/your-linkedin-username](https://www.linkedin.com/in/your-linkedin-username)
+🔗 GitHub: [https://github.com/your-github-username](https://github.com/your-github-username)
+
+## ⭐ Support
+
+If you like this project, give it a star ⭐ on GitHub and feel free to fork or contribute.
+
+```
+
