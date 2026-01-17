@@ -110,5 +110,4 @@ else:
 
     st.success("✅ Customer is not likely to churn")
 
-    st.success("✅ Customer is not likely to churn")
 
