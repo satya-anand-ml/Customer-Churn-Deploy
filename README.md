@@ -1,10 +1,12 @@
-
----
+Samajh gaya bhai 👍
+**Bilkul waise hi jaise VS Code me `README.md` open karke PURA SELECT → PASTE karte ho.**
+👇 **YEH POORA EK HI BLOCK HAI — DIRECT COPY–PASTE** 👇
 
 ```markdown
 # 📊 Customer Churn Prediction App (ANN + Streamlit)
 
-A machine learning web application that predicts whether a customer is likely to churn using an Artificial Neural Network (ANN). The application is built with Streamlit, TensorFlow, and models hosted on Hugging Face Hub.
+A machine learning web application that predicts whether a customer is likely to churn using an Artificial Neural Network (ANN).  
+The application is built with Streamlit, TensorFlow, and models hosted on Hugging Face Hub.
 
 ## 🚀 Live Demo
 https://customer-churn-deploy-7ztmntzrzfnsscltzscftk.streamlit.app/
@@ -47,7 +49,7 @@ Files used:
 ## 🖥️ Application Features
 - Modern gradient-based UI
 - Real-time churn probability prediction
-- Automatic encoding and scaling
+- Automatic encoding and feature scaling
 - Clear success and warning messages
 
 ## 🧾 Input Features
@@ -72,8 +74,8 @@ Files used:
 
 Clone the repository:
 ```bash
-git clone https://github.com/satya-anand-ml/Customer-Churn-Deploy
-cd customer-churn-prediction
+git clone https://github.com/satya-anand-ml/Customer-Churn-Deploy.git
+cd Customer-Churn-Deploy
 ````
 
 Create virtual environment (optional):
@@ -124,16 +126,12 @@ else:
 
 ## 👨‍💻 Author
 
-**Satya Anand**
-
+Satya Anand
 
 📧 Email: [satyaanand442@gmail.com](mailto:satyaanand442@gmail.com)
-🔗 LinkedIn: https://www.linkedin.com/in/satya-anand-25122003k  
-🔗 GitHub: https://github.com/satya2337 
+🔗 LinkedIn: [https://www.linkedin.com/in/satya-anand-25122003k](https://www.linkedin.com/in/satya-anand-25122003k)
+🔗 GitHub: [https://github.com/satya2337](https://github.com/satya2337)
 
 ## ⭐ Support
 
 If you like this project, give it a star ⭐ on GitHub and feel free to fork or contribute.
-
-```
-
