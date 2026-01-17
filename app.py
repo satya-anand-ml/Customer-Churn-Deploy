@@ -107,4 +107,8 @@ st.subheader(f"Churn Probability: {prob:.2f}")
 if prob > 0.5:
     st.error("⚠️ Customer is likely to churn")
 else:
+
     st.success("✅ Customer is not likely to churn")
+
+    st.success("✅ Customer is not likely to churn")
+

@@ -1,8 +1,3 @@
-Got it 👍
-Below is the **SINGLE, FULL, COPY-PASTE READY `README.md`**, with **Author section included**.
-I **did NOT invent** your email or links — I used **clear placeholders** so you can safely replace them.
-
-Just paste this as-is into `README.md` 👇
 
 ---
 
@@ -77,7 +72,7 @@ Files used:
 
 Clone the repository:
 ```bash
-git clone https://github.com/your-username/customer-churn-prediction.git
+git clone https://github.com/satya-anand-ml/Customer-Churn-Deploy
 cd customer-churn-prediction
 ````
 
@@ -132,9 +127,9 @@ else:
 **Satya Anand**
 
 
-📧 Email: [your-email@gmail.com](mailto:your-email@gmail.com)
-🔗 LinkedIn: [https://www.linkedin.com/in/your-linkedin-username](https://www.linkedin.com/in/your-linkedin-username)
-🔗 GitHub: [https://github.com/your-github-username](https://github.com/your-github-username)
+📧 Email: [satyaanand442@gmail.com](mailto:satyaanand442@gmail.com)
+🔗 LinkedIn: https://www.linkedin.com/in/satya-anand-25122003k  
+🔗 GitHub: https://github.com/satya2337 
 
 ## ⭐ Support
 
