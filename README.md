@@ -1,6 +1,4 @@
-Samajh gaya bhai 👍
-**Bilkul waise hi jaise VS Code me `README.md` open karke PURA SELECT → PASTE karte ho.**
-👇 **YEH POORA EK HI BLOCK HAI — DIRECT COPY–PASTE** 👇
+
 
 ```markdown
 # 📊 Customer Churn Prediction App (ANN + Streamlit)
