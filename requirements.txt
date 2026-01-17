@@ -3,8 +3,5 @@ tensorflow==2.20.0
 pandas
 numpy
 scikit-learn
-<<<<<<< HEAD
+
 huggingface_hub
-=======
-huggingface_hub
->>>>>>> 8bcc7b0ab3565c5cae0f31837a20951a774f300f
